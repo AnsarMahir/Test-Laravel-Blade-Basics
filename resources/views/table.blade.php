@@ -18,7 +18,7 @@
                             </tr>
                         </thead>
                         {{-- Task: add the loop here to show users, or the row "No content" --}}
-                        @if(count($users)>1)
+                        @if(count($users)>0)
                             @foreach ($users as $user)
                         <tbody>
                             <tr>
